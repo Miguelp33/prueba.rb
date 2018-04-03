@@ -15,3 +15,15 @@ if age >= 18
 else 
     puts "You are a baby "
 end ; puts
+
+print "Do you have a brothers ? "
+brothers=gets.chomp.upcase ; puts
+
+if brothers == "YES"
+    print "How many brothers you have ? "
+    quantity_brothers=gets.chomp.to_i ; puts
+    print "Then you have #{quantity_brothers} brothers"
+else
+    print "I am sorry "
+end; puts
+
