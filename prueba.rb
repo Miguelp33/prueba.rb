@@ -34,4 +34,6 @@ if name == "MIGUEL"
         puts "#{name_girlfriend} is a beautiful name"
     else
         puts "She is not your girlfriend "
-end
+end ; puts
+
+puts "This is a test for github"
