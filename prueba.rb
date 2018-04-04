@@ -27,3 +27,11 @@ else
     print "I am sorry "
 end; puts
 
+if name == "MIGUEL"
+    puts "\n#{name} what is your girlfriend is name ? "
+    name_girlfriend=gets.chomp.upcase ; puts
+    if name_girlfriend == "GABRIELA"
+        puts "#{name_girlfriend} is a beautiful name"
+    else
+        puts "She is not your girlfriend "
+end
